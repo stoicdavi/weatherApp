@@ -1,6 +1,6 @@
 
 const apiKey = 'your API key here'
-const apiUrl = 'your url here'
+const apiUrl = 'https://api.openweathermap.org/data/2.5/weather'
 //The above information is omitted due to privacy reasons but the app works well with the api key and url provided by openweathermap.org
 const locationInput = document.querySelector('#locationInput')
 const  searchButton = document.querySelector('#searchButton')
