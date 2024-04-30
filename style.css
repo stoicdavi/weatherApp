@@ -1,0 +1,59 @@
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 320px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+h1{
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 28px;
+}   
+
+input[type="text"], input[type="password"]{
+    width: 80%;
+    height: 40px;
+    padding: 12px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button{
+    background-color: #007BFF;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: #0056b3;
+}
+.weather-info{
+    margin-top: 20px;
+    text-align: center;
+}
+#temperature{
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+#description{
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
